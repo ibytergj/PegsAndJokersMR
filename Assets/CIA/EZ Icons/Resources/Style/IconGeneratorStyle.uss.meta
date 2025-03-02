@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: f28dcbb53b697c745b93265f8de8b1c2
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 12385, guid: 0000000000000000e000000000000000, type: 0}
+  disableValidation: 0
+AssetOrigin:
+  serializedVersion: 1
+  productId: 305169
+  packageName: EZ Icons
+  packageVersion: 1.0.0
+  assetPath: Assets/CIA/EZ Icons/Resources/Style/IconGeneratorStyle.uss
+  uploadId: 716832

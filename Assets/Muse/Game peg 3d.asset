@@ -1,0 +1,789 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31a6b9796d1c0440eba061ace5e9dff6, type: 3}
+  m_Name: Game peg 3d
+  m_EditorClassIdentifier: 
+  assetsData:
+  - rid: 1404330654941315443
+  - rid: 1404330654941315457
+  currentMode: TextToScenario
+  m_Data:
+  - rid: 1404330654941315423
+  - rid: 1404330654941315424
+  - rid: 1404330654941315425
+  - rid: 1404330654941315426
+  - rid: 1404330654941315427
+  - rid: 1404330654941315428
+  - rid: 1404330654941315429
+  preRefinedArtifact:
+    rid: -2
+  refinedArtifact:
+    rid: -2
+  selectedArtifact:
+    rid: -2
+  m_Operators:
+  - rid: 1404330654941315430
+  - rid: 1404330654941315431
+  - rid: 1404330654941315432
+  - rid: 1404330654941315433
+  - rid: 1404330654941315434
+  - rid: 1404330654941315435
+  - rid: 1404330654941315436
+  - rid: 1404330654941315437
+  - rid: 1404330654941315438
+  - rid: 1404330654941315439
+  - rid: 1404330654941315440
+  - rid: 1404330654941315441
+  - rid: 1404330654941315442
+  m_PreRefineOperators: []
+  m_ExportedArtifacts: []
+  references:
+    version: 2
+    RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }
+    - rid: 1404330654941315423
+      type: {class: BookmarkManager, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_BookmarkedArtifacts:
+          m_Values: []
+        m_IsFilterEnabled: 0
+    - rid: 1404330654941315424
+      type: {class: FeedbackManager, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_Liked:
+          m_Values: []
+        m_Disliked:
+          m_Values: []
+    - rid: 1404330654941315425
+      type: {class: DefaultStyleData, ns: Unity.Muse.Sprite.Partners.Data, asm: Unity.Muse.Sprite.Partners}
+      data: 
+    - rid: 1404330654941315426
+      type: {class: GenerateButtonData, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data: 
+    - rid: 1404330654941315427
+      type: {class: MainUI/UISize, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_NodeListWidth: 300
+        m_NodeListRefineWidth: 300
+        m_AssetListRefineWidth: 200
+    - rid: 1404330654941315428
+      type: {class: OperatorOverridePublishers, ns: Unity.Muse.Sprite.Partners.Data,
+        asm: Unity.Muse.Sprite.Partners}
+      data: 
+    - rid: 1404330654941315429
+      type: {class: SessionData, ns: Unity.Muse.Sprite.Partners.Data, asm: Unity.Muse.Sprite.Partners}
+      data:
+        m_SessionId: 6865027a-e9fb-4158-90cf-7044d76bc0cc
+        sessionLoaded: 
+    - rid: 1404330654941315430
+      type: {class: MppGenerateOperator, ns: Unity.Muse.Sprite.Partners.MPP.Operators,
+        asm: Unity.Muse.Sprite.Partners.MPP}
+      data:
+        m_OperatorData:
+          type: MppGenerateOperator
+          key: MppGenerateOperator
+          version: 1.0.0
+          settings:
+          - TextToScenario
+          - 2
+          enabled: 1
+          assembly: 
+          hideable: 0
+          hidden: 0
+          isRefinement: 0
+    - rid: 1404330654941315431
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          key: PromptOperator
+          version: 0.0.2
+          settings:
+          - Game peg 3d
+          - 
+          enabled: 1
+          assembly: 
+          hideable: 0
+          hidden: 0
+          isRefinement: 0
+    - rid: 1404330654941315432
+      type: {class: GenerationOptionsOperator, ns: Unity.Muse.Sprite.Partners.MPP.Operators,
+        asm: Unity.Muse.Sprite.Partners.MPP}
+      data:
+        m_OperatorData:
+          type: GenerationOptionsOperator
+          key: ScenarioAiOperator
+          version: 0.0.1
+          settings:
+          - GenerationOptionsOperator
+          - '{}'
+          - '{"model_id":"Q8g21IvmSvOjOVneyk3O_g","resolution":0,"seed":0,"strength":0.2,"remove_background":false,"seed_user_specified":false}'
+          enabled: 1
+          assembly: 
+          hideable: 1
+          hidden: 1
+          isRefinement: 0
+    - rid: 1404330654941315433
+      type: {class: InputImageOperator, ns: Unity.Muse.Sprite.Partners.MPP.Operators,
+        asm: Unity.Muse.Sprite.Partners.MPP}
+      data:
+        m_OperatorData:
+          type: InputImageOperator
+          key: imagePrompt
+          version: 0.0.1
+          settings:
+          - InputImageOperator
+          - '{}'
+          - '{"image":null,"strength":0.25}'
+          enabled: 1
+          assembly: 
+          hideable: 1
+          hidden: 1
+          isRefinement: 0
+    - rid: 1404330654941315434
+      type: {class: InputImageOperator, ns: Unity.Muse.Sprite.Partners.MPP.Operators,
+        asm: Unity.Muse.Sprite.Partners.MPP}
+      data:
+        m_OperatorData:
+          type: InputImageOperator
+          key: style
+          version: 0.0.1
+          settings:
+          - InputImageOperator
+          - '{}'
+          - '{"image":null,"strength":0.25}'
+          enabled: 1
+          assembly: 
+          hideable: 1
+          hidden: 1
+          isRefinement: 0
+    - rid: 1404330654941315435
+      type: {class: InputImageOperator, ns: Unity.Muse.Sprite.Partners.MPP.Operators,
+        asm: Unity.Muse.Sprite.Partners.MPP}
+      data:
+        m_OperatorData:
+          type: InputImageOperator
+          key: composition
+          version: 0.0.1
+          settings:
+          - InputImageOperator
+          - '{}'
+          - '{"image":null,"strength":0.75}'
+          enabled: 1
+          assembly: 
+          hideable: 1
+          hidden: 1
+          isRefinement: 0
+    - rid: 1404330654941315436
+      type: {class: InputImageOperator, ns: Unity.Muse.Sprite.Partners.MPP.Operators,
+        asm: Unity.Muse.Sprite.Partners.MPP}
+      data:
+        m_OperatorData:
+          type: InputImageOperator
+          key: pose
+          version: 0.0.1
+          settings:
+          - InputImageOperator
+          - '{}'
+          - '{"image":null,"strength":1.0}'
+          enabled: 1
+          assembly: 
+          hideable: 1
+          hidden: 1
+          isRefinement: 0
+    - rid: 1404330654941315437
+      type: {class: InputImageOperator, ns: Unity.Muse.Sprite.Partners.MPP.Operators,
+        asm: Unity.Muse.Sprite.Partners.MPP}
+      data:
+        m_OperatorData:
+          type: InputImageOperator
+          key: depth
+          version: 0.0.1
+          settings:
+          - InputImageOperator
+          - '{}'
+          - '{"image":null,"strength":0.75}'
+          enabled: 1
+          assembly: 
+          hideable: 1
+          hidden: 1
+          isRefinement: 0
+    - rid: 1404330654941315438
+      type: {class: InputImageOperator, ns: Unity.Muse.Sprite.Partners.MPP.Operators,
+        asm: Unity.Muse.Sprite.Partners.MPP}
+      data:
+        m_OperatorData:
+          type: InputImageOperator
+          key: feature
+          version: 0.0.1
+          settings:
+          - InputImageOperator
+          - '{}'
+          - '{"image":null,"strength":0.25}'
+          enabled: 1
+          assembly: 
+          hideable: 1
+          hidden: 1
+          isRefinement: 0
+    - rid: 1404330654941315439
+      type: {class: MppUpscaleImageOperator, ns: Unity.Muse.Sprite.Partners.MPP.Operators,
+        asm: Unity.Muse.Sprite.Partners.MPP}
+      data:
+        m_OperatorData:
+          type: MppUpscaleImageOperator
+          key: upscale
+          version: 0.0.1
+          settings:
+          - MppUpscaleImageOperator
+          - '{}'
+          - '{}'
+          enabled: 0
+          assembly: 
+          hideable: 0
+          hidden: 0
+          isRefinement: 1
+    - rid: 1404330654941315440
+      type: {class: MppRemoveBackgroundOperator, ns: Unity.Muse.Sprite.Partners.MPP.Operators,
+        asm: Unity.Muse.Sprite.Partners.MPP}
+      data:
+        m_OperatorData:
+          type: MppRemoveBackgroundOperator
+          key: removeBackground
+          version: 0.0.1
+          settings:
+          - MppRemoveBackgroundOperator
+          - '{}'
+          - '{}'
+          enabled: 0
+          assembly: 
+          hideable: 0
+          hidden: 0
+          isRefinement: 1
+    - rid: 1404330654941315441
+      type: {class: MppMaskOperator, ns: Unity.Muse.Sprite.Partners.MPP.Operators,
+        asm: Unity.Muse.Sprite.Partners.MPP}
+      data:
+        m_OperatorData:
+          type: MppMaskOperator
+          key: mask
+          version: 0.0.1
+          settings:
+          - MppMaskOperator
+          - '{}'
+          - '{"mask":null,"strength":0.25,"is_clear":true}'
+          enabled: 0
+          assembly: 
+          hideable: 0
+          hidden: 0
+          isRefinement: 1
+    - rid: 1404330654941315442
+      type: {class: MppReferenceOperator, ns: Unity.Muse.Sprite.Partners.MPP.Operators,
+        asm: Unity.Muse.Sprite.Partners.MPP}
+      data:
+        m_OperatorData:
+          type: MppReferenceOperator
+          key: refinementReference
+          version: 0.0.1
+          settings:
+          - MppReferenceOperator
+          - '{}'
+          - '{"asset":null}'
+          enabled: 0
+          assembly: 
+          hideable: 0
+          hidden: 0
+          isRefinement: 0
+    - rid: 1404330654941315443
+      type: {class: MPPArtifact, ns: Unity.Muse.Sprite.Partners.MPP.Artifacts, asm: Unity.Muse.Sprite.Partners.MPP}
+      data:
+        mode: TextToScenario
+        Guid: 9c4b0910-01fa-4a30-bb3f-1feeeb76985d
+        BatchRequestIdentifier: 
+        Seed: 0
+        m_Operators:
+        - rid: 1404330654941315444
+        - rid: 1404330654941315445
+        - rid: 1404330654941315446
+        - rid: 1404330654941315447
+        - rid: 1404330654941315448
+        - rid: 1404330654941315449
+        - rid: 1404330654941315450
+        - rid: 1404330654941315451
+        - rid: 1404330654941315452
+        - rid: 1404330654941315453
+        - rid: 1404330654941315454
+        - rid: 1404330654941315455
+        - rid: 1404330654941315456
+        history:
+        - rid: 1404330654941315443
+        children: []
+    - rid: 1404330654941315444
+      type: {class: MppGenerateOperator, ns: Unity.Muse.Sprite.Partners.MPP.Operators,
+        asm: Unity.Muse.Sprite.Partners.MPP}
+      data:
+        m_OperatorData:
+          type: MppGenerateOperator
+          key: MppGenerateOperator
+          version: 1.0.0
+          settings:
+          - TextToScenario
+          - 2
+          enabled: 1
+          assembly: 
+          hideable: 0
+          hidden: 0
+          isRefinement: 0
+    - rid: 1404330654941315445
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          key: PromptOperator
+          version: 0.0.2
+          settings:
+          - Game peg 3d
+          - 
+          enabled: 1
+          assembly: 
+          hideable: 0
+          hidden: 0
+          isRefinement: 0
+    - rid: 1404330654941315446
+      type: {class: GenerationOptionsOperator, ns: Unity.Muse.Sprite.Partners.MPP.Operators,
+        asm: Unity.Muse.Sprite.Partners.MPP}
+      data:
+        m_OperatorData:
+          type: GenerationOptionsOperator
+          key: ScenarioAiOperator
+          version: 0.0.1
+          settings:
+          - GenerationOptionsOperator
+          - '{}'
+          - '{"model_id":"Q8g21IvmSvOjOVneyk3O_g","resolution":0,"seed":0,"strength":0.2,"remove_background":false,"seed_user_specified":false}'
+          enabled: 1
+          assembly: 
+          hideable: 1
+          hidden: 1
+          isRefinement: 0
+    - rid: 1404330654941315447
+      type: {class: InputImageOperator, ns: Unity.Muse.Sprite.Partners.MPP.Operators,
+        asm: Unity.Muse.Sprite.Partners.MPP}
+      data:
+        m_OperatorData:
+          type: InputImageOperator
+          key: imagePrompt
+          version: 0.0.1
+          settings:
+          - InputImageOperator
+          - '{}'
+          - '{"image":null,"strength":0.25}'
+          enabled: 1
+          assembly: 
+          hideable: 1
+          hidden: 1
+          isRefinement: 0
+    - rid: 1404330654941315448
+      type: {class: InputImageOperator, ns: Unity.Muse.Sprite.Partners.MPP.Operators,
+        asm: Unity.Muse.Sprite.Partners.MPP}
+      data:
+        m_OperatorData:
+          type: InputImageOperator
+          key: style
+          version: 0.0.1
+          settings:
+          - InputImageOperator
+          - '{}'
+          - '{"image":null,"strength":0.25}'
+          enabled: 1
+          assembly: 
+          hideable: 1
+          hidden: 1
+          isRefinement: 0
+    - rid: 1404330654941315449
+      type: {class: InputImageOperator, ns: Unity.Muse.Sprite.Partners.MPP.Operators,
+        asm: Unity.Muse.Sprite.Partners.MPP}
+      data:
+        m_OperatorData:
+          type: InputImageOperator
+          key: composition
+          version: 0.0.1
+          settings:
+          - InputImageOperator
+          - '{}'
+          - '{"image":null,"strength":0.75}'
+          enabled: 1
+          assembly: 
+          hideable: 1
+          hidden: 1
+          isRefinement: 0
+    - rid: 1404330654941315450
+      type: {class: InputImageOperator, ns: Unity.Muse.Sprite.Partners.MPP.Operators,
+        asm: Unity.Muse.Sprite.Partners.MPP}
+      data:
+        m_OperatorData:
+          type: InputImageOperator
+          key: pose
+          version: 0.0.1
+          settings:
+          - InputImageOperator
+          - '{}'
+          - '{"image":null,"strength":1.0}'
+          enabled: 1
+          assembly: 
+          hideable: 1
+          hidden: 1
+          isRefinement: 0
+    - rid: 1404330654941315451
+      type: {class: InputImageOperator, ns: Unity.Muse.Sprite.Partners.MPP.Operators,
+        asm: Unity.Muse.Sprite.Partners.MPP}
+      data:
+        m_OperatorData:
+          type: InputImageOperator
+          key: depth
+          version: 0.0.1
+          settings:
+          - InputImageOperator
+          - '{}'
+          - '{"image":null,"strength":0.75}'
+          enabled: 1
+          assembly: 
+          hideable: 1
+          hidden: 1
+          isRefinement: 0
+    - rid: 1404330654941315452
+      type: {class: InputImageOperator, ns: Unity.Muse.Sprite.Partners.MPP.Operators,
+        asm: Unity.Muse.Sprite.Partners.MPP}
+      data:
+        m_OperatorData:
+          type: InputImageOperator
+          key: feature
+          version: 0.0.1
+          settings:
+          - InputImageOperator
+          - '{}'
+          - '{"image":null,"strength":0.25}'
+          enabled: 1
+          assembly: 
+          hideable: 1
+          hidden: 1
+          isRefinement: 0
+    - rid: 1404330654941315453
+      type: {class: MppUpscaleImageOperator, ns: Unity.Muse.Sprite.Partners.MPP.Operators,
+        asm: Unity.Muse.Sprite.Partners.MPP}
+      data:
+        m_OperatorData:
+          type: MppUpscaleImageOperator
+          key: upscale
+          version: 0.0.1
+          settings:
+          - MppUpscaleImageOperator
+          - '{}'
+          - '{}'
+          enabled: 0
+          assembly: 
+          hideable: 0
+          hidden: 0
+          isRefinement: 1
+    - rid: 1404330654941315454
+      type: {class: MppRemoveBackgroundOperator, ns: Unity.Muse.Sprite.Partners.MPP.Operators,
+        asm: Unity.Muse.Sprite.Partners.MPP}
+      data:
+        m_OperatorData:
+          type: MppRemoveBackgroundOperator
+          key: removeBackground
+          version: 0.0.1
+          settings:
+          - MppRemoveBackgroundOperator
+          - '{}'
+          - '{}'
+          enabled: 0
+          assembly: 
+          hideable: 0
+          hidden: 0
+          isRefinement: 1
+    - rid: 1404330654941315455
+      type: {class: MppMaskOperator, ns: Unity.Muse.Sprite.Partners.MPP.Operators,
+        asm: Unity.Muse.Sprite.Partners.MPP}
+      data:
+        m_OperatorData:
+          type: MppMaskOperator
+          key: mask
+          version: 0.0.1
+          settings:
+          - MppMaskOperator
+          - '{}'
+          - '{"mask":null,"strength":0.25,"is_clear":true}'
+          enabled: 0
+          assembly: 
+          hideable: 0
+          hidden: 0
+          isRefinement: 1
+    - rid: 1404330654941315456
+      type: {class: MppReferenceOperator, ns: Unity.Muse.Sprite.Partners.MPP.Operators,
+        asm: Unity.Muse.Sprite.Partners.MPP}
+      data:
+        m_OperatorData:
+          type: MppReferenceOperator
+          key: refinementReference
+          version: 0.0.1
+          settings:
+          - MppReferenceOperator
+          - '{}'
+          - '{"asset":null}'
+          enabled: 0
+          assembly: 
+          hideable: 0
+          hidden: 0
+          isRefinement: 0
+    - rid: 1404330654941315457
+      type: {class: MPPArtifact, ns: Unity.Muse.Sprite.Partners.MPP.Artifacts, asm: Unity.Muse.Sprite.Partners.MPP}
+      data:
+        mode: TextToScenario
+        Guid: 4499991a-adcd-4396-83af-e2bc28c04cd6
+        BatchRequestIdentifier: 
+        Seed: 0
+        m_Operators:
+        - rid: 1404330654941315458
+        - rid: 1404330654941315459
+        - rid: 1404330654941315460
+        - rid: 1404330654941315461
+        - rid: 1404330654941315462
+        - rid: 1404330654941315463
+        - rid: 1404330654941315464
+        - rid: 1404330654941315465
+        - rid: 1404330654941315466
+        - rid: 1404330654941315467
+        - rid: 1404330654941315468
+        - rid: 1404330654941315469
+        - rid: 1404330654941315470
+        history:
+        - rid: 1404330654941315457
+        children: []
+    - rid: 1404330654941315458
+      type: {class: MppGenerateOperator, ns: Unity.Muse.Sprite.Partners.MPP.Operators,
+        asm: Unity.Muse.Sprite.Partners.MPP}
+      data:
+        m_OperatorData:
+          type: MppGenerateOperator
+          key: MppGenerateOperator
+          version: 1.0.0
+          settings:
+          - TextToScenario
+          - 2
+          enabled: 1
+          assembly: 
+          hideable: 0
+          hidden: 0
+          isRefinement: 0
+    - rid: 1404330654941315459
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          key: PromptOperator
+          version: 0.0.2
+          settings:
+          - Game peg 3d
+          - 
+          enabled: 1
+          assembly: 
+          hideable: 0
+          hidden: 0
+          isRefinement: 0
+    - rid: 1404330654941315460
+      type: {class: GenerationOptionsOperator, ns: Unity.Muse.Sprite.Partners.MPP.Operators,
+        asm: Unity.Muse.Sprite.Partners.MPP}
+      data:
+        m_OperatorData:
+          type: GenerationOptionsOperator
+          key: ScenarioAiOperator
+          version: 0.0.1
+          settings:
+          - GenerationOptionsOperator
+          - '{}'
+          - '{"model_id":"Q8g21IvmSvOjOVneyk3O_g","resolution":0,"seed":0,"strength":0.2,"remove_background":false,"seed_user_specified":false}'
+          enabled: 1
+          assembly: 
+          hideable: 1
+          hidden: 1
+          isRefinement: 0
+    - rid: 1404330654941315461
+      type: {class: InputImageOperator, ns: Unity.Muse.Sprite.Partners.MPP.Operators,
+        asm: Unity.Muse.Sprite.Partners.MPP}
+      data:
+        m_OperatorData:
+          type: InputImageOperator
+          key: imagePrompt
+          version: 0.0.1
+          settings:
+          - InputImageOperator
+          - '{}'
+          - '{"image":null,"strength":0.25}'
+          enabled: 1
+          assembly: 
+          hideable: 1
+          hidden: 1
+          isRefinement: 0
+    - rid: 1404330654941315462
+      type: {class: InputImageOperator, ns: Unity.Muse.Sprite.Partners.MPP.Operators,
+        asm: Unity.Muse.Sprite.Partners.MPP}
+      data:
+        m_OperatorData:
+          type: InputImageOperator
+          key: style
+          version: 0.0.1
+          settings:
+          - InputImageOperator
+          - '{}'
+          - '{"image":null,"strength":0.25}'
+          enabled: 1
+          assembly: 
+          hideable: 1
+          hidden: 1
+          isRefinement: 0
+    - rid: 1404330654941315463
+      type: {class: InputImageOperator, ns: Unity.Muse.Sprite.Partners.MPP.Operators,
+        asm: Unity.Muse.Sprite.Partners.MPP}
+      data:
+        m_OperatorData:
+          type: InputImageOperator
+          key: composition
+          version: 0.0.1
+          settings:
+          - InputImageOperator
+          - '{}'
+          - '{"image":null,"strength":0.75}'
+          enabled: 1
+          assembly: 
+          hideable: 1
+          hidden: 1
+          isRefinement: 0
+    - rid: 1404330654941315464
+      type: {class: InputImageOperator, ns: Unity.Muse.Sprite.Partners.MPP.Operators,
+        asm: Unity.Muse.Sprite.Partners.MPP}
+      data:
+        m_OperatorData:
+          type: InputImageOperator
+          key: pose
+          version: 0.0.1
+          settings:
+          - InputImageOperator
+          - '{}'
+          - '{"image":null,"strength":1.0}'
+          enabled: 1
+          assembly: 
+          hideable: 1
+          hidden: 1
+          isRefinement: 0
+    - rid: 1404330654941315465
+      type: {class: InputImageOperator, ns: Unity.Muse.Sprite.Partners.MPP.Operators,
+        asm: Unity.Muse.Sprite.Partners.MPP}
+      data:
+        m_OperatorData:
+          type: InputImageOperator
+          key: depth
+          version: 0.0.1
+          settings:
+          - InputImageOperator
+          - '{}'
+          - '{"image":null,"strength":0.75}'
+          enabled: 1
+          assembly: 
+          hideable: 1
+          hidden: 1
+          isRefinement: 0
+    - rid: 1404330654941315466
+      type: {class: InputImageOperator, ns: Unity.Muse.Sprite.Partners.MPP.Operators,
+        asm: Unity.Muse.Sprite.Partners.MPP}
+      data:
+        m_OperatorData:
+          type: InputImageOperator
+          key: feature
+          version: 0.0.1
+          settings:
+          - InputImageOperator
+          - '{}'
+          - '{"image":null,"strength":0.25}'
+          enabled: 1
+          assembly: 
+          hideable: 1
+          hidden: 1
+          isRefinement: 0
+    - rid: 1404330654941315467
+      type: {class: MppUpscaleImageOperator, ns: Unity.Muse.Sprite.Partners.MPP.Operators,
+        asm: Unity.Muse.Sprite.Partners.MPP}
+      data:
+        m_OperatorData:
+          type: MppUpscaleImageOperator
+          key: upscale
+          version: 0.0.1
+          settings:
+          - MppUpscaleImageOperator
+          - '{}'
+          - '{}'
+          enabled: 0
+          assembly: 
+          hideable: 0
+          hidden: 0
+          isRefinement: 1
+    - rid: 1404330654941315468
+      type: {class: MppRemoveBackgroundOperator, ns: Unity.Muse.Sprite.Partners.MPP.Operators,
+        asm: Unity.Muse.Sprite.Partners.MPP}
+      data:
+        m_OperatorData:
+          type: MppRemoveBackgroundOperator
+          key: removeBackground
+          version: 0.0.1
+          settings:
+          - MppRemoveBackgroundOperator
+          - '{}'
+          - '{}'
+          enabled: 0
+          assembly: 
+          hideable: 0
+          hidden: 0
+          isRefinement: 1
+    - rid: 1404330654941315469
+      type: {class: MppMaskOperator, ns: Unity.Muse.Sprite.Partners.MPP.Operators,
+        asm: Unity.Muse.Sprite.Partners.MPP}
+      data:
+        m_OperatorData:
+          type: MppMaskOperator
+          key: mask
+          version: 0.0.1
+          settings:
+          - MppMaskOperator
+          - '{}'
+          - '{"mask":null,"strength":0.25,"is_clear":true}'
+          enabled: 0
+          assembly: 
+          hideable: 0
+          hidden: 0
+          isRefinement: 1
+    - rid: 1404330654941315470
+      type: {class: MppReferenceOperator, ns: Unity.Muse.Sprite.Partners.MPP.Operators,
+        asm: Unity.Muse.Sprite.Partners.MPP}
+      data:
+        m_OperatorData:
+          type: MppReferenceOperator
+          key: refinementReference
+          version: 0.0.1
+          settings:
+          - MppReferenceOperator
+          - '{}'
+          - '{"asset":null}'
+          enabled: 0
+          assembly: 
+          hideable: 0
+          hidden: 0
+          isRefinement: 0

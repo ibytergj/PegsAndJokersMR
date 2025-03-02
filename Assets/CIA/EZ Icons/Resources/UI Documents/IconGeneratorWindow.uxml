@@ -1,0 +1,109 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Assets/CIA/EZ%20Icons/Resources/Style/IconGeneratorStyle.uss?fileID=7433441132597879392&amp;guid=f28dcbb53b697c745b93265f8de8b1c2&amp;type=3#IconGeneratorStyle" />
+    <engine:Label text="EZ Icons" name="title" />
+    <engine:VisualElement name="TopLevelPanels" style="flex-grow: 1; height: 100%; min-height: 100%; max-height: 100%;">
+        <engine:ScrollView>
+            <engine:VisualElement name="All-Panels" style="flex-grow: 1; justify-content: space-between; height: auto; max-height: none; min-height: auto; align-self: auto; align-content: auto; flex-wrap: nowrap; align-items: stretch; flex-direction: column; background-color: rgb(62, 62, 62); flex-shrink: 1;">
+                <engine:VisualElement name="PreviewSection" style="flex-grow: 1; max-height: none; height: auto; min-height: auto; justify-content: space-between;">
+                    <engine:VisualElement name="preview-pane" class="section" style="flex-grow: 1; background-image: none; min-height: 300px; min-width: auto; max-width: none; max-height: none; padding-top: 10px; margin-top: 0; height: auto; justify-content: flex-start; align-items: stretch; flex-wrap: nowrap;">
+                        <engine:Label text="Preview" name="PreviewLabel" class="sectionLabel" />
+                        <engine:VisualElement name="imagePreview-bg" style="background-image: resource(&apos;Art/Checkerboard&apos;); -unity-background-image-tint-color: rgba(255, 255, 255, 0.25); background-repeat: space no-repeat; min-width: 300px; max-height: 300px; min-height: 300px; -unity-background-scale-mode: scale-to-fit;">
+                            <engine:VisualElement name="image-preview" style="flex-grow: 1; -unity-background-scale-mode: scale-to-fit; background-image: none; display: flex; width: auto; height: auto; max-width: none; align-self: center; max-height: 300px; min-width: 300px; min-height: auto;">
+                                <engine:Label text="Drag a 3D model or a prefab to the Prefab slot at the top. Models without a material will work best as Masks only." name="noPrefab-label" style="position: relative; bottom: auto; justify-content: center; align-self: center; align-content: center; font-size: 15%; white-space: pre-wrap; -unity-text-align: middle-center; width: auto; color: rgb(248, 191, 55); -unity-font-style: bold; padding-left: 0; padding-right: 0; flex-grow: 1; max-height: 300px; max-width: 280px; flex-shrink: 1; height: auto; background-size: 100% 100%; align-items: stretch; display: flex; min-height: auto; overflow: visible; margin-top: 0; padding-top: 0;" />
+                            </engine:VisualElement>
+                        </engine:VisualElement>
+                    </engine:VisualElement>
+                </engine:VisualElement>
+                <engine:VisualElement name="PrefabSection" class="section" style="flex-grow: 1;">
+                    <engine:Label text="Prefab" name="fileSettingsLabel" class="sectionLabel" />
+                    <engine:VisualElement name="Prefab" class="subSection" style="flex-grow: 1;">
+                        <engine:VisualElement name="Container" style="flex-grow: 1;">
+                            <editor:ObjectField label="Prefab" type="UnityEngine.GameObject, UnityEngine.CoreModule" name="prefab-field" class="row highlighted" />
+                            <engine:Vector3Field label="Rotation" name="rotation-field" class="row" />
+                            <engine:Slider label="Scale" value="1" high-value="10" name="scale-slider" low-value="0.01" show-input-field="true" fill="true" class="row" style="-unity-background-image-tint-color: rgb(255, 255, 255); min-height: auto; height: 30px;" />
+                        </engine:VisualElement>
+                    </engine:VisualElement>
+                </engine:VisualElement>
+                <engine:VisualElement name="FileContainer" class="section" style="flex-grow: 1;">
+                    <engine:Label text="File Settings" name="fileSettingsLabel" class="sectionLabel" />
+                    <engine:VisualElement name="SubSection" class="subSection" style="flex-grow: 1;">
+                        <engine:VisualElement name="icon-size" style="flex-grow: 1; flex-direction: row; max-height: 44px; align-items: center; align-self: auto; max-width: 100%;">
+                            <engine:SliderInt label="Icon Size" value="5" high-value="6" name="iconSize-slider" low-value="0" class="row" style="flex-grow: 1;" />
+                            <engine:FloatField value="256" name="iconSize-field" readonly="true" class="readOnlyField disabled" style="flex-grow: 0; max-height: 20px;" />
+                        </engine:VisualElement>
+                        <engine:VisualElement name="iconSize-custom" style="flex-grow: 1; white-space: normal; flex-direction: row; justify-content: flex-start;">
+                            <engine:Toggle label="Custom Size" name="iconCustom-toggle" style="margin-right: 30px;" />
+                            <engine:VisualElement name="iconCustomSize-pane" style="flex-grow: 1; display: flex;">
+                                <engine:Vector2IntField name="customIconSizeField" style="flex-grow: 1;" />
+                            </engine:VisualElement>
+                        </engine:VisualElement>
+                        <engine:VisualElement name="FileLocation" style="flex-grow: 1; flex-direction: row;">
+                            <engine:TextField label="Save Path" placeholder-text="File Save Location" name="savePath-field" class="row" style="flex-grow: 1;" />
+                            <engine:Button text="Browse" name="browse-button" />
+                        </engine:VisualElement>
+                        <engine:VisualElement name="file-name-row" style="flex-grow: 1; flex-direction: row;">
+                            <engine:Toggle label="User Prefab Name" name="prefabName-toggle" value="true" class="row" style="flex-grow: 0; white-space: normal; width: auto; max-width: none;" />
+                            <engine:TextField placeholder-text="NO PREFAB LOADED" readonly="true" name="prefabName-field" class="unity-text-input disabled" style="flex-grow: 1;" />
+                        </engine:VisualElement>
+                        <engine:VisualElement name="customName-pane" style="flex-grow: 1; display: flex;">
+                            <engine:TextField label="Custom File Name" placeholder-text="MyIcon" name="customName-field" value="MyIcon" class="row" />
+                        </engine:VisualElement>
+                        <engine:VisualElement name="FullPath" style="flex-grow: 1;">
+                            <engine:TextField label="Full Path" placeholder-text="filler text" name="fullPath-field" readonly="true" enabled="true" select-all-on-focus="true" focusable="true" class="row disabled" />
+                        </engine:VisualElement>
+                    </engine:VisualElement>
+                </engine:VisualElement>
+                <engine:VisualElement name="mask" class="section" style="flex-grow: 1; min-height: auto;">
+                    <engine:Label text="Mask" name="mask-label" class="sectionLabel" style="-unity-font-style: bold;" />
+                    <engine:VisualElement name="SubSection" class="subSection" style="flex-grow: 1;">
+                        <engine:Toggle label="Mask Only" name="mask-toggle" value="false" class="unityToggle unity-Toggle__checkmark row" />
+                        <engine:VisualElement name="mask-pane" class="section" style="flex-grow: 1; padding-top: 0; padding-bottom: 0; margin-top: 0; margin-left: 0; margin-right: 0;">
+                            <editor:ColorField label="Mask Color" value="#FFFFFFFF" name="mask-color" class="row" style="margin-left: 0;" />
+                        </engine:VisualElement>
+                    </engine:VisualElement>
+                </engine:VisualElement>
+                <engine:VisualElement name="border-and-fill" style="flex-grow: 1; min-height: auto;">
+                    <engine:VisualElement name="border-fill-pane" class="section" style="flex-grow: 1; padding-top: 0; padding-bottom: 0; margin-top: 0; margin-left: 0; margin-right: 0;">
+                        <engine:Label text="Border &amp; Fill" class="sectionLabel" style="-unity-font-style: bold;" />
+                        <engine:VisualElement name="SubSection" class="subSection" style="flex-grow: 1;">
+                            <engine:VisualElement name="border-pane" style="flex-grow: 1;">
+                                <engine:Slider label="Corner Radius" value="0.1" high-value="1" name="cornerRadius-slider" show-input-field="true" class="row" />
+                                <engine:Toggle label="Border" name="border-toggle" value="true" class="unityToggle unity-Toggle__checkmark row" />
+                                <engine:VisualElement name="borderSettings-pane" style="flex-grow: 1;">
+                                    <engine:Slider label="Border Width" value="0.2" high-value="1" name="borderWidth-slider" show-input-field="true" class="row" style="margin-bottom: 3px;" />
+                                    <engine:Slider label="Border Offset" value="0" high-value="1" name="borderOffset-slider" show-input-field="true" class="row" style="margin-bottom: 3px;" />
+                                    <editor:ColorField label="Border Color" value="#FFD800FF" name="border-color" class="row" />
+                                    <engine:Toggle label="Ornamental Corners" name="ornamental-toggle" class="row" />
+                                </engine:VisualElement>
+                            </engine:VisualElement>
+                            <engine:Toggle label="Background Fill" name="fill-toggle" value="true" class="row" />
+                            <engine:VisualElement name="fill-pane" style="flex-grow: 1; display: flex;">
+                                <editor:ColorField label="Fill Color" value="#78530AFF" name="fill-color" class="row" style="display: flex;" />
+                            </engine:VisualElement>
+                        </engine:VisualElement>
+                    </engine:VisualElement>
+                </engine:VisualElement>
+                <engine:VisualElement name="Lights" class="section" style="flex-grow: 1; justify-content: space-between;">
+                    <engine:Label text="Light Settings&#10;" name="fileSettingsLabel" class="sectionLabel" />
+                    <engine:VisualElement name="SubSection" class="subSection" style="flex-grow: 1;">
+                        <engine:Toggle label="Add a Light" name="light-toggle" class="row" style="margin-bottom: 1px;" />
+                        <engine:VisualElement name="light-pane" style="flex-grow: 1; display: none;">
+                            <engine:Slider label="Intensity" value="1" high-value="30" name="lightIntensity-slider" show-input-field="true" class="row" />
+                            <editor:ColorField label="Light Color" value="#FFFFFFFF" name="light-color" show-eye-dropper="true" class="row" />
+                        </engine:VisualElement>
+                    </engine:VisualElement>
+                </engine:VisualElement>
+                <engine:VisualElement name="OtherSettings" class="section" style="flex-grow: 1; justify-content: space-between;">
+                    <engine:Label text="Other Settings" name="OtherSettings" class="sectionLabel" />
+                    <engine:VisualElement name="OtherSettings-Section" class="subSection" style="flex-grow: 1;">
+                        <engine:Toggle label="Compatible with Cozy Weather" name="cozy-toggle" class="row" style="flex-grow: 0; width: 100%;" />
+                        <engine:Toggle label="Debug Mode" name="debug-toggle" class="row" />
+                    </engine:VisualElement>
+                </engine:VisualElement>
+            </engine:VisualElement>
+            <engine:VisualElement name="bottom-row" class="section" style="flex-grow: 1; max-height: none; align-self: auto; align-content: flex-end; justify-content: flex-start; align-items: stretch; height: auto; min-height: auto;">
+                <engine:Button text="Generate Icon" name="generate-button" enabled="true" focusable="true" class="buttonLarge-animated" style="flex-grow: 1; flex-wrap: wrap; align-items: stretch; justify-content: space-between; font-size: 30px; width: 90%;" />
+            </engine:VisualElement>
+        </engine:ScrollView>
+    </engine:VisualElement>
+</engine:UXML>

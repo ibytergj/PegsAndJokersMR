@@ -1,0 +1,184 @@
+#title {
+    height: 50px;
+    font-size: 30px;
+    -unity-text-align: middle-center;
+    background-color: rgb(0, 0, 0);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    color: rgb(218, 106, 226);
+    -unity-font-style: bold;
+}
+
+.sectionLabel {
+    -unity-font-style: bold;
+    color: rgb(212, 95, 255);
+}
+
+.subSection {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.section {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-top: 10px;
+    background-color: var(--unity-colors-default-background);
+    flex-grow: 0;
+}
+
+.section > .unity-Toggle__checkmark {
+    background-color: rgba(221, 147, 147, 0.88);
+}
+
+.buttonLarge-animated-noHover:hover {
+    transition-timing-function: ease-in-out-bounce, ease;
+    transition-duration: 0.3s, 0.3s;
+    background-color: rgb(152, 58, 143);
+    background-size: 100% 100%;
+    width: 90%;
+    height: 60px;
+    font-size: 20%;
+    -unity-font-style: bold;
+    align-self: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    transition-property: all, background-color;
+}
+
+.buttonLarge-animated:hover {
+    scale: 1.05 1.05;
+    background-color: rgb(23, 113, 0);
+}
+
+.buttonLarge-animated {
+    transition-timing-function: ease-in-out-bounce, ease;
+    transition-duration: 0.3s, 0.3s;
+    background-color: rgb(152, 58, 143);
+    background-size: 100% 100%;
+    width: auto;
+    height: auto;
+    -unity-font-style: bold;
+    align-self: center;
+    align-items: stretch;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    transition-property: all, background-color;
+    flex-grow: 1;
+    justify-content: space-between;
+    align-content: auto;
+    font-size: 20px;
+    max-height: none;
+    white-space: pre-wrap;
+}
+
+.row {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+.section {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-top: 10px;
+    background-color: rgba(19, 95, 137, 0.16);
+}
+
+.disabled .unity-base-field__input {
+    background-color: rgb(87, 87, 87);
+    color: rgb(161, 161, 161);
+    -unity-font-style: normal;
+}
+
+.disabled {
+}
+
+.highlighted {
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 5px;
+    justify-content: center;
+    align-self: auto;
+    align-items: center;
+    align-content: center;
+    color: rgb(255, 255, 255);
+}
+
+.highlighted .unity-base-field__input {
+    background-color: rgb(255, 217, 0);
+    padding-top: 0;
+    padding-bottom: 0;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    color: rgb(0, 0, 0);
+    -unity-font-style: bold;
+}
+
+.highlighted .unity-object-field__selector {
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-right: 0;
+    padding-left: 0;
+    height: 20px;
+    width: 25px;
+}
+
+.highlighted .unity-object-field-display__label {
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 0;
+    justify-content: center;
+    align-self: auto;
+    align-items: center;
+    align-content: center;
+    color: rgb(0, 0, 0);
+    -unity-text-align: middle-left;
+}
+
+.section {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-top: 10px;
+    background-color: rgba(19, 95, 137, 0.16);
+}

@@ -1,0 +1,527 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31a6b9796d1c0440eba061ace5e9dff6, type: 3}
+  m_Name: Joker laughing
+  m_EditorClassIdentifier: 
+  assetsData:
+  - rid: 1404330654941315396
+  currentMode: TextToSound
+  m_Data:
+  - rid: 1404330654941315389
+  - rid: 1404330654941315390
+  - rid: 1404330654941315391
+  preRefinedArtifact:
+    rid: -2
+  refinedArtifact:
+    rid: -2
+  selectedArtifact:
+    rid: 1404330654941315404
+  m_Operators:
+  - rid: 1404330654941315392
+  - rid: 1404330654941315393
+  - rid: 1404330654941315394
+  - rid: 1404330654941315395
+  m_PreRefineOperators: []
+  m_ExportedArtifacts:
+  - m_UnityGuid: 1677408edcc56ba46989823de9bad409
+    m_MuseGuid: 36610c92-021b-459c-b7fe-f57a4de9f916
+  - m_UnityGuid: 3661c7bdff6f52547a2e51646219eb3a
+    m_MuseGuid: f7279bc7-60e4-40e7-8b76-e77f597408d3
+  - m_UnityGuid: 145d0bfc3f84cf44cac699aa5815586c
+    m_MuseGuid: 2aa8caaa-786d-4be3-8e57-30dc44f3f22f
+  - m_UnityGuid: c3baa7e692b1ec04887724033ac27fdd
+    m_MuseGuid: 28d445f6-37bf-4a24-8eb7-fc992a234824
+  - m_UnityGuid: c29c706f3c48dfd429dcc9a99d4140e7
+    m_MuseGuid: cc29ddef-3b09-4f09-a083-3869a06b035e
+  references:
+    version: 2
+    RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }
+    - rid: 1404330654941315389
+      type: {class: BookmarkManager, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_BookmarkedArtifacts:
+          m_Values: []
+        m_IsFilterEnabled: 0
+    - rid: 1404330654941315390
+      type: {class: MainUI/UISize, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_NodeListWidth: 300.33337
+        m_NodeListRefineWidth: 300
+        m_AssetListRefineWidth: 200
+    - rid: 1404330654941315391
+      type: {class: GenerateButtonData, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data: 
+    - rid: 1404330654941315392
+      type: {class: AudioGenerateOperator, ns: Unity.Muse.Sound, asm: Unity.Muse.Sound}
+      data:
+        m_OperatorData:
+          type: AudioGenerateOperator
+          key: AudioGenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToSound
+          - 1
+          - 5
+          - 10
+          enabled: 1
+          assembly: 
+          hideable: 0
+          hidden: 0
+          isRefinement: 0
+    - rid: 1404330654941315393
+      type: {class: AudioPromptOperator, ns: Unity.Muse.Sound, asm: Unity.Muse.Sound}
+      data:
+        m_OperatorData:
+          type: AudioPromptOperator
+          key: AudioPromptOperator
+          version: 0.0.2
+          settings:
+          - Joker laughing
+          - 
+          enabled: 1
+          assembly: 
+          hideable: 0
+          hidden: 0
+          isRefinement: 0
+    - rid: 1404330654941315394
+      type: {class: AudioReferenceOperator, ns: Unity.Muse.Sound, asm: Unity.Muse.Sound}
+      data:
+        m_OperatorData:
+          type: AudioReferenceOperator
+          key: AudioReferenceOperator
+          version: 0.0.1
+          settings:
+          - AudioToAudio
+          - 40
+          - 
+          - 
+          enabled: 1
+          assembly: 
+          hideable: 0
+          hidden: 0
+          isRefinement: 0
+    - rid: 1404330654941315395
+      type: {class: AudioParametersOperator, ns: Unity.Muse.Sound, asm: Unity.Muse.Sound}
+      data:
+        m_OperatorData:
+          type: AudioParametersOperator
+          key: AudioParametersOperator
+          version: 0.0.1
+          settings:
+          - 42
+          - False
+          enabled: 1
+          assembly: 
+          hideable: 0
+          hidden: 0
+          isRefinement: 0
+    - rid: 1404330654941315396
+      type: {class: AudioArtifact, ns: Unity.Muse.Sound, asm: Unity.Muse.Sound}
+      data:
+        mode: TextToSound
+        Guid: cc29ddef-3b09-4f09-a083-3869a06b035e
+        BatchRequestIdentifier: 
+        Seed: 1116230074
+        m_Operators:
+        - rid: 1404330654941315397
+        - rid: 1404330654941315398
+        - rid: 1404330654941315399
+        - rid: 1404330654941315400
+        history:
+        - rid: 1404330654941315396
+        - rid: 1404330654941315401
+        - rid: 1404330654941315402
+        - rid: 1404330654941315403
+        - rid: 1404330654941315404
+        children: []
+    - rid: 1404330654941315397
+      type: {class: AudioGenerateOperator, ns: Unity.Muse.Sound, asm: Unity.Muse.Sound}
+      data:
+        m_OperatorData:
+          type: AudioGenerateOperator
+          key: AudioGenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToSound
+          - 1
+          - 1
+          - 10
+          enabled: 1
+          assembly: 
+          hideable: 0
+          hidden: 0
+          isRefinement: 0
+    - rid: 1404330654941315398
+      type: {class: AudioPromptOperator, ns: Unity.Muse.Sound, asm: Unity.Muse.Sound}
+      data:
+        m_OperatorData:
+          type: AudioPromptOperator
+          key: AudioPromptOperator
+          version: 0.0.2
+          settings:
+          - Joker laughing
+          - 
+          enabled: 1
+          assembly: 
+          hideable: 0
+          hidden: 0
+          isRefinement: 0
+    - rid: 1404330654941315399
+      type: {class: AudioReferenceOperator, ns: Unity.Muse.Sound, asm: Unity.Muse.Sound}
+      data:
+        m_OperatorData:
+          type: AudioReferenceOperator
+          key: AudioReferenceOperator
+          version: 0.0.1
+          settings:
+          - AudioToAudio
+          - 40
+          - 
+          - 
+          enabled: 1
+          assembly: 
+          hideable: 0
+          hidden: 0
+          isRefinement: 0
+    - rid: 1404330654941315400
+      type: {class: AudioParametersOperator, ns: Unity.Muse.Sound, asm: Unity.Muse.Sound}
+      data:
+        m_OperatorData:
+          type: AudioParametersOperator
+          key: AudioParametersOperator
+          version: 0.0.1
+          settings:
+          - 1116230074
+          - False
+          enabled: 1
+          assembly: 
+          hideable: 0
+          hidden: 0
+          isRefinement: 0
+    - rid: 1404330654941315401
+      type: {class: AudioArtifact, ns: Unity.Muse.Sound, asm: Unity.Muse.Sound}
+      data:
+        mode: TextToSound
+        Guid: 28d445f6-37bf-4a24-8eb7-fc992a234824
+        BatchRequestIdentifier: 
+        Seed: 1116230075
+        m_Operators:
+        - rid: 1404330654941315405
+        - rid: 1404330654941315406
+        - rid: 1404330654941315407
+        - rid: 1404330654941315408
+        history:
+        - rid: 1404330654941315401
+        children: []
+    - rid: 1404330654941315402
+      type: {class: AudioArtifact, ns: Unity.Muse.Sound, asm: Unity.Muse.Sound}
+      data:
+        mode: TextToSound
+        Guid: 2aa8caaa-786d-4be3-8e57-30dc44f3f22f
+        BatchRequestIdentifier: 
+        Seed: 1116230076
+        m_Operators:
+        - rid: 1404330654941315409
+        - rid: 1404330654941315410
+        - rid: 1404330654941315411
+        - rid: 1404330654941315412
+        history:
+        - rid: 1404330654941315402
+        children: []
+    - rid: 1404330654941315403
+      type: {class: AudioArtifact, ns: Unity.Muse.Sound, asm: Unity.Muse.Sound}
+      data:
+        mode: TextToSound
+        Guid: f7279bc7-60e4-40e7-8b76-e77f597408d3
+        BatchRequestIdentifier: 
+        Seed: 1116230077
+        m_Operators:
+        - rid: 1404330654941315413
+        - rid: 1404330654941315414
+        - rid: 1404330654941315415
+        - rid: 1404330654941315416
+        history:
+        - rid: 1404330654941315403
+        children: []
+    - rid: 1404330654941315404
+      type: {class: AudioArtifact, ns: Unity.Muse.Sound, asm: Unity.Muse.Sound}
+      data:
+        mode: TextToSound
+        Guid: 36610c92-021b-459c-b7fe-f57a4de9f916
+        BatchRequestIdentifier: 
+        Seed: 1116230078
+        m_Operators:
+        - rid: 1404330654941315417
+        - rid: 1404330654941315418
+        - rid: 1404330654941315419
+        - rid: 1404330654941315420
+        history:
+        - rid: 1404330654941315404
+        children: []
+    - rid: 1404330654941315405
+      type: {class: AudioGenerateOperator, ns: Unity.Muse.Sound, asm: Unity.Muse.Sound}
+      data:
+        m_OperatorData:
+          type: AudioGenerateOperator
+          key: AudioGenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToSound
+          - 1
+          - 1
+          - 10
+          enabled: 1
+          assembly: 
+          hideable: 0
+          hidden: 0
+          isRefinement: 0
+    - rid: 1404330654941315406
+      type: {class: AudioPromptOperator, ns: Unity.Muse.Sound, asm: Unity.Muse.Sound}
+      data:
+        m_OperatorData:
+          type: AudioPromptOperator
+          key: AudioPromptOperator
+          version: 0.0.2
+          settings:
+          - Joker laughing
+          - 
+          enabled: 1
+          assembly: 
+          hideable: 0
+          hidden: 0
+          isRefinement: 0
+    - rid: 1404330654941315407
+      type: {class: AudioReferenceOperator, ns: Unity.Muse.Sound, asm: Unity.Muse.Sound}
+      data:
+        m_OperatorData:
+          type: AudioReferenceOperator
+          key: AudioReferenceOperator
+          version: 0.0.1
+          settings:
+          - AudioToAudio
+          - 40
+          - 
+          - 
+          enabled: 1
+          assembly: 
+          hideable: 0
+          hidden: 0
+          isRefinement: 0
+    - rid: 1404330654941315408
+      type: {class: AudioParametersOperator, ns: Unity.Muse.Sound, asm: Unity.Muse.Sound}
+      data:
+        m_OperatorData:
+          type: AudioParametersOperator
+          key: AudioParametersOperator
+          version: 0.0.1
+          settings:
+          - 1116230075
+          - False
+          enabled: 1
+          assembly: 
+          hideable: 0
+          hidden: 0
+          isRefinement: 0
+    - rid: 1404330654941315409
+      type: {class: AudioGenerateOperator, ns: Unity.Muse.Sound, asm: Unity.Muse.Sound}
+      data:
+        m_OperatorData:
+          type: AudioGenerateOperator
+          key: AudioGenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToSound
+          - 1
+          - 1
+          - 10
+          enabled: 1
+          assembly: 
+          hideable: 0
+          hidden: 0
+          isRefinement: 0
+    - rid: 1404330654941315410
+      type: {class: AudioPromptOperator, ns: Unity.Muse.Sound, asm: Unity.Muse.Sound}
+      data:
+        m_OperatorData:
+          type: AudioPromptOperator
+          key: AudioPromptOperator
+          version: 0.0.2
+          settings:
+          - Joker laughing
+          - 
+          enabled: 1
+          assembly: 
+          hideable: 0
+          hidden: 0
+          isRefinement: 0
+    - rid: 1404330654941315411
+      type: {class: AudioReferenceOperator, ns: Unity.Muse.Sound, asm: Unity.Muse.Sound}
+      data:
+        m_OperatorData:
+          type: AudioReferenceOperator
+          key: AudioReferenceOperator
+          version: 0.0.1
+          settings:
+          - AudioToAudio
+          - 40
+          - 
+          - 
+          enabled: 1
+          assembly: 
+          hideable: 0
+          hidden: 0
+          isRefinement: 0
+    - rid: 1404330654941315412
+      type: {class: AudioParametersOperator, ns: Unity.Muse.Sound, asm: Unity.Muse.Sound}
+      data:
+        m_OperatorData:
+          type: AudioParametersOperator
+          key: AudioParametersOperator
+          version: 0.0.1
+          settings:
+          - 1116230076
+          - False
+          enabled: 1
+          assembly: 
+          hideable: 0
+          hidden: 0
+          isRefinement: 0
+    - rid: 1404330654941315413
+      type: {class: AudioGenerateOperator, ns: Unity.Muse.Sound, asm: Unity.Muse.Sound}
+      data:
+        m_OperatorData:
+          type: AudioGenerateOperator
+          key: AudioGenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToSound
+          - 1
+          - 1
+          - 10
+          enabled: 1
+          assembly: 
+          hideable: 0
+          hidden: 0
+          isRefinement: 0
+    - rid: 1404330654941315414
+      type: {class: AudioPromptOperator, ns: Unity.Muse.Sound, asm: Unity.Muse.Sound}
+      data:
+        m_OperatorData:
+          type: AudioPromptOperator
+          key: AudioPromptOperator
+          version: 0.0.2
+          settings:
+          - Joker laughing
+          - 
+          enabled: 1
+          assembly: 
+          hideable: 0
+          hidden: 0
+          isRefinement: 0
+    - rid: 1404330654941315415
+      type: {class: AudioReferenceOperator, ns: Unity.Muse.Sound, asm: Unity.Muse.Sound}
+      data:
+        m_OperatorData:
+          type: AudioReferenceOperator
+          key: AudioReferenceOperator
+          version: 0.0.1
+          settings:
+          - AudioToAudio
+          - 40
+          - 
+          - 
+          enabled: 1
+          assembly: 
+          hideable: 0
+          hidden: 0
+          isRefinement: 0
+    - rid: 1404330654941315416
+      type: {class: AudioParametersOperator, ns: Unity.Muse.Sound, asm: Unity.Muse.Sound}
+      data:
+        m_OperatorData:
+          type: AudioParametersOperator
+          key: AudioParametersOperator
+          version: 0.0.1
+          settings:
+          - 1116230077
+          - False
+          enabled: 1
+          assembly: 
+          hideable: 0
+          hidden: 0
+          isRefinement: 0
+    - rid: 1404330654941315417
+      type: {class: AudioGenerateOperator, ns: Unity.Muse.Sound, asm: Unity.Muse.Sound}
+      data:
+        m_OperatorData:
+          type: AudioGenerateOperator
+          key: AudioGenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToSound
+          - 1
+          - 1
+          - 10
+          enabled: 1
+          assembly: 
+          hideable: 0
+          hidden: 0
+          isRefinement: 0
+    - rid: 1404330654941315418
+      type: {class: AudioPromptOperator, ns: Unity.Muse.Sound, asm: Unity.Muse.Sound}
+      data:
+        m_OperatorData:
+          type: AudioPromptOperator
+          key: AudioPromptOperator
+          version: 0.0.2
+          settings:
+          - Joker laughing
+          - 
+          enabled: 1
+          assembly: 
+          hideable: 0
+          hidden: 0
+          isRefinement: 0
+    - rid: 1404330654941315419
+      type: {class: AudioReferenceOperator, ns: Unity.Muse.Sound, asm: Unity.Muse.Sound}
+      data:
+        m_OperatorData:
+          type: AudioReferenceOperator
+          key: AudioReferenceOperator
+          version: 0.0.1
+          settings:
+          - AudioToAudio
+          - 40
+          - 
+          - 
+          enabled: 1
+          assembly: 
+          hideable: 0
+          hidden: 0
+          isRefinement: 0
+    - rid: 1404330654941315420
+      type: {class: AudioParametersOperator, ns: Unity.Muse.Sound, asm: Unity.Muse.Sound}
+      data:
+        m_OperatorData:
+          type: AudioParametersOperator
+          key: AudioParametersOperator
+          version: 0.0.1
+          settings:
+          - 1116230078
+          - False
+          enabled: 1
+          assembly: 
+          hideable: 0
+          hidden: 0
+          isRefinement: 0
